@@ -1,0 +1,51 @@
+import requests
+from lxml import etree
+import json
+
+
+class Boss():
+    def __init__(self, work):
+        self.url = 'https://www.zhipin.com/c101010100/?query={}&page=1&ka=page-1'.format(work)
+        self.headers = {
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+        }
+        self.work_count = []
+
+    def get_response(self, url):
+        response = requests.get(url=url, headers = self.headers)
+        return response.content
+
+    def get_work_items(self, data):
+        html = etree.HTML(data)
+        el_list = html.xpath('//*[@id="main"]/div/div[@class]/ul/li')
+        work_list = []
+        for el in el_list:
+            work_dict = {}
+            work_dict['职位'] = el.xpath('div/div/h3/a/div/text()')[0]
+            work_dict['薪水'] = el.xpath('div/div/h3/a/span/text()')[0]
+            work_dict['工作要求'] = el.xpath('div/div/p/text()')[0:2]
+            #  div/div/div/h3/a
+            work_dict['公司名称'] = el.xpath('div/div/div/h3/a/text()')[0]
+            work_list.append(work_dict)
+            for work,item in work_dict.items():
+                print(work, item)
+        try:
+            next_link = 'https://www.zhipin.com' + html.xpath("//*[@ka='page-next']/@href")[0]
+        except:
+            next_link = None
+        return work_list, next_link
+
+    def run(self):
+        next_url = self.url
+        while True:
+            try:
+                data = self.get_response(next_url)
+            except:
+                break
+            work_list, next_url = self.get_work_items(data)
+            if not next_url:
+                break
+
+if __name__ == '__main__':
+    boss = Boss('python')
+    boss.run()
