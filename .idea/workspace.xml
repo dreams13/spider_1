@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c65c30d-166c-4865-9c98-d4a1f65db65b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c65c30d-166c-4865-9c98-d4a1f65db65b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selenium_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="65" />
+            <state relative-caret-position="176">
+              <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -72,8 +69,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="117" />
+    <option name="x" value="196" />
+    <option name="y" value="23" />
     <option name="width" value="1315" />
     <option name="height" value="877" />
   </component>
@@ -292,12 +289,12 @@
       <workItem from="1553152559844" duration="1401000" />
       <workItem from="1553166185239" duration="21027000" />
       <workItem from="1553318184932" duration="60000" />
-      <workItem from="1553318264087" duration="7792000" />
+      <workItem from="1553318264087" duration="8221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40206000" />
+    <option name="totallyTimeSpent" value="40635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,15 +306,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="117" width="1315" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="196" y="23" width="1315" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14296937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14296937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32356688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32356688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47643313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,7 +322,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299363" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -527,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="176">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
